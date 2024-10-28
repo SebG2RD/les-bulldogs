@@ -6,20 +6,20 @@ h1, h2, h3, .titre-section {
     font-family: Montserrat, Helvetica, sans-serif;
 }
 .logo {
-    width: 3.125rem;
-    width: 3.125rem;
+    width: 3rem;
+    width: 3rem;
 }
 .banniere-dog {
     background: url('../assets/img/bulldog_banniere.jpg') center/cover;
 }
 .presentation {
-    padding: 6.25rem 0.625rem;
+    padding: 6rem 0.6rem;
 }
 .titre-section {
     color: #000;
     text-align: center;
-    font-size: 4.063rem;
-    padding: 3.125rem 1.25rem 7.5rem;
+    font-size: 4rem;
+    padding: 3rem 1.25rem 7.5rem;
     font-family: Montserrat, Helvetica, sans-serif;
 }
 .info {
@@ -32,10 +32,10 @@ h1, h2, h3, .titre-section {
     position: relative;
 }
 .info-card {
-    width: 21.875rem;
+    width: 22rem;
     height: auto;
-    margin: 0 1.25rem 80px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    margin: 0 1.25rem 5rem;
+    box-shadow: 0 0.6rem 1.8rem rgba(0, 0, 0, 0.4);
     position: relative;
     z-index: 1;
 }
@@ -54,14 +54,14 @@ h1, h2, h3, .titre-section {
 .info-card h2 {
     color: #333;
     text-align: center;
-    font-size: 1.563rem;
-    padding: 1.25rem 0.313rem;
+    font-size: 1.5rem;
+    padding: 1.25rem 0.3rem;
 }
 .info-card p {
     color: #333;
     text-align: center;
-    font-size: 1.438rem;
-    padding: 0 0.313rem 0.938rem;
+    font-size: 1.4rem;
+    padding: 0 0.313rem 0.9rem;
 }
 .Evenements {
     display: flex;
@@ -80,7 +80,7 @@ h1, h2, h3, .titre-section {
 .colonneEvenements p {
     font-size: 1.2rem;
     width: 70%;
-    margin: 0 auto 1.875rem;
+    margin: 0 auto 1.8rem;
 }
 .parallax {
     background-image: url(../assets/img/image-parallax.jpg);
@@ -113,6 +113,6 @@ h1, h2, h3, .titre-section {
         margin-bottom: 1.25rem;
     }
     .parallax-txt {
-        font-size: 4.375rem;
+        font-size: 4rem;
     }
 }
