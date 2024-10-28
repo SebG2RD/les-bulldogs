@@ -3,16 +3,16 @@ h1, h2, h3, .titre-section {
     font-family: Montserrat, Helvetica, sans-serif;
 }
 .logo {
-    width: 50px;
-    width: 50px;
+    width: 3.125rem;
+    width: 3.125rem;
 }
 #presentation {
-    padding: 100px 10px;
+    padding: 6.25rem 0.625rem;
 }
 .titre-section {
     color: #000;
     text-align: center;
-    font-size: 65px;
+    font-size: 4.063rem;
     padding: 50px 20px 120px;
     font-family: Montserrat, Helvetica, sans-serif;
 }
@@ -90,4 +90,26 @@ h1, h2, h3, .titre-section {
     font-size: 100px;
     text-align: center;
     font-weight: 700;
+}
+
+@media (width < 750px) {
+    .titre-section {
+        font-size: 3rem;
+    }
+    .Evenements {
+        flex-direction: column;
+    }
+    .colonneEvenements {
+        width: 22rem
+    }
+    .colonneEvenements h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .infoEvenements:nth-child(1) {
+        margin: 50px 20px 0px;
+    }
+    .parallax-txt {
+        font-size: 4.375rem;
+    }
 }
