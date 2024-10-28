@@ -57,21 +57,21 @@ h1, h2, h3, .titre-section {
     font-size: 23px;
     padding: 0 5px 15px;
 }
-#evenement {
+.Evenements {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.infoEvenements {
+.colonneEvenements {
     width: 30%;
     text-align: center;
     margin: 50px 20px 70px;
 }
-.infoEvenements h3 {
+.colonneEvenements h3 {
     font-size: 50px;
     margin-bottom: 20px;
 }
-.infoEvenements p {
+.colonneEvenements p {
     font-size: 18px;
     width: 70%;
     margin: 0 auto 30px;
